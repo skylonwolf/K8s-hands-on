@@ -13,7 +13,7 @@ spec:
     imagePullPolicy: IfNotPresent
     name: ubuntu
     volumeMounts:
-    - mountPath: /var/htdocs
+    - mountPath: /data-mount
       name: data
     volumes:
      - name: data
